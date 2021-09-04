@@ -1,6 +1,7 @@
 # Dash-based dashboards
 
-Dashboard originally developed for ENVR 300 at UBC. Purpose is to explore and compare one year of ozone data at 2 locations in the Vancouver region.
+Explore and compare one year of ozone data at 2 locations in the Vancouver region. 
+Dashboard originally developed for ENVR 300 at UBC.
 
 ## How to run locally (on your own computer)
 Dash is a library for making interactive applications that will run in a browser window. See https://dash.plotly.com/. We are using "Dash open-source" NOT Dash Enterprise. 
