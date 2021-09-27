@@ -32,7 +32,7 @@ app = dash.Dash(
 # read in the data from the prepared CSV file. 
 # Data are assumed to be in the custom formatted CSV file `YVR and Abbotsford 2017.csv`, stored in the folder `data`. 
 
-all_O3 = pd.read_csv("./data/YVR and Abbotsford 2017.csv",index_col=0, parse_dates=['date_pst'])
+all_O3 = pd.read_csv("YVR-Abb-2017.csv",index_col=0, parse_dates=['date_pst'])
 
 # rolling n-point moving average (hence the .mean()); data points are 1hr apart, hence 24/day or 168/wk.
 days = 7
