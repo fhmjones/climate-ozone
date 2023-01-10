@@ -13,8 +13,9 @@ from os import environ
 
 import pandas as pd
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc
+from dash import html
+
 # plotly express could be used for simple applications
 # but this app needs to build plotly graph components separately 
 import plotly.graph_objects as go
